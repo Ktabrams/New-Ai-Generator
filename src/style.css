@@ -1,0 +1,26 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif
+}
+header{
+    margin-bottom: 30px;
+}
+h1{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.5;
+    color: rgb(rgb(42, 3, 3), green, blue);
+    text-align: center;
+  
+}
+.container{
+    margin: 120px auto;
+    max-width: 600px;
+    background-color: aliceblue;
+}
+form{
+    padding: 30px;
+    background-color: white;
+    border-radius: 18px;
+    display: flex;
+}
