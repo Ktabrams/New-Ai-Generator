@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "src/style.css" />
@@ -12,7 +13,7 @@
     <h1>AI poem Generator</h1>
     </header>
     <main>
-        <form>
+        <form id="poem-generator-form">
             <input type="text" 
             placeholder = "Enter the topic of the poem"
             autofocus
@@ -24,11 +25,7 @@
             class="submit-button"
             />
         </form>
-        <div class="poem">
-            La tombe dit a la rose
-            <br/>
-            Des pleurs dont l'aube t'arrose
-        </div>
+        <div class="poem" id="poem"></div>
 
     </main>
     
